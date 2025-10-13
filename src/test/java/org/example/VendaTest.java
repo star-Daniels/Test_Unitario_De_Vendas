@@ -70,7 +70,7 @@ public class VendaTest {
     }
 
     @Test
-    public void aumentarEstoqueAposVenda() {
+    public void valorTotalAposVenda() {
 
         int quantidade = 12;
 
@@ -172,6 +172,7 @@ public class VendaTest {
         Assertions.assertEquals(true,venda.realizarVenda());
 
     }
+
 
 
 }
