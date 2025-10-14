@@ -45,11 +45,12 @@ public class VendaTest {
         int quantidade = 16;
 
         venda = new Venda(produto, quantidade);
-        venda.realizarVenda();
+        
 
 
-        Assertions.assertEquals(produto, venda.getProduto());
-        Assertions.assertEquals(quantidade, venda.getQuantidadeVendida());
+        Assertions.assertFalse(venda.realizarVenda();
+)
+        
 
     }
 
@@ -176,3 +177,4 @@ public class VendaTest {
 
 
 }
+
